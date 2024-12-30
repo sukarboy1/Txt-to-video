@@ -1,0 +1,5 @@
+schemaVersion: 1.0 
+- name: my-service-endpoint
+  service:
+     port: <1080>
+  type: REST
