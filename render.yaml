@@ -6,7 +6,7 @@ services:
     dockerfilePath: Dockerfile
     repo: https://github.com/nikhilsaini098/Txt-to-video
     branch: main
-    autoDeploy: false
+    autoDeploy: true
     envVars:
       - key: BOT_TOKEN
         sync: false
