@@ -178,7 +178,7 @@ async def upload(bot: Client, m: Message):
     else:
         CR = credit
    
-    await editable.edit("🌄 Now send the Thumb url if don't want thumbnail send no ")
+    await editable.edit("🌄 Now send the Thumb url/nEg » https://graph.org/file/ce1723991756e48c35aa1.jpg \n Or if don't want thumbnail send no ")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -206,6 +206,7 @@ async def upload(bot: Client, m: Message):
                .replace("www.youtube-nocookie.com/embed", "youtu.be")\
                .replace("?modestbranding=1", "")\
                .replace("/view?usp=sharing","")\
+               .replace("mpd","m3u8")\
                .replace("youtube.com/embed/", "youtube.com/watch?v=")
             
             url = "https://" + V
