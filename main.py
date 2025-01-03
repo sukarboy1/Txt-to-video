@@ -197,9 +197,9 @@ async def upload(bot: Client, m: Message):
         count = int(raw_text)
 
     try:
-    # Start from the specified initial index
-    for i in range(count - 1, int(input9.text)):
-        original_url = links[i][1]
+        # Start from the specified initial index
+        for i in range(count - 1, int(input9.text)):
+            original_url = links[i][1]
 
         # Replace parts of the URL as needed
         V = links[i][1].replace("file/d/","uc?export=download&id=")\
