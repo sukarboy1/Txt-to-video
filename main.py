@@ -194,7 +194,7 @@ async def upload(bot: Client, m: Message):
     if len(links) == 1:
         count = 1
     else:
-    count = int(raw_text)
+        count = int(raw_text)
 
     try:
     # Start from the specified initial index
